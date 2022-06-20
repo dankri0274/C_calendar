@@ -56,7 +56,7 @@ void calendar(int year, int daycode) {
 	int month, day;
 	for (month = 1; month <= 12; month++) {
 		printf("%s", months[month]);
-		printf("\n\nMon  Tue  Wed  Thu  Fri  Sat  Sun\n" );
+		printf("\n\nSun  Mon  Tue  Wed  Thu  Fri  Sat\n" );
 		
 		// Correct the position for the first date
 		for (day = 1; day <= 1 + daycode * 5; day++) {
